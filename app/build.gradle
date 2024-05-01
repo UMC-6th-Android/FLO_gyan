@@ -6,6 +6,7 @@ plugins {
 android {
     compileSdk 31
 
+    //viewBinding은 원래 없는 코드라서 따로 추가해줘야댐
     viewBinding {
         enabled true
     }
